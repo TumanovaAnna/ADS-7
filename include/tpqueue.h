@@ -16,6 +16,7 @@ class TPQueue {
     item->next = nullptr;
     return item;
   }
+
  public:
   TPQueue() {
       head = nullptr;
@@ -52,5 +53,4 @@ struct SYM {
   char ch;
   int prior;
 };
-
 #endif  // INCLUDE_TPQUEUE_H_
